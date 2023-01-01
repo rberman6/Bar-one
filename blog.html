@@ -15,7 +15,7 @@
         <!-- Navigation bar  -->
         <nav class="navBar">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="#">About</a></li>
             </ul>
             <!-- Home Button Logo -->
@@ -23,7 +23,7 @@
                 <h2>Bar-One</h2>
             </a>
             <ul>
-                <li><a href="#">Blog</a></li>
+                <li><a href="./blog.html">Blog</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -60,10 +60,26 @@
 
                 </div> <!-- .blogSideBar END  -->
                 <!-- 65% column child -->
-                <div></div>
+                <div class="blogPost">
 
-            </div>
+                    <div class="image blogImage">
+                        <img src="./assets/post-image.jpg" alt="four varied dishes displayed on bartop">
+                    </div>
 
+                    <div class="blogTextContainer">
+                        <h3>New Menu!</h3>
+                        <h4>Monday January 30, 2019 by Saron</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus saepe, temporibus porro facilis quam veritatis earum distinctio recusandae laboriosam, eveniet soluta commodi eos aspernatur, neque ratione sint doloribus similique. Sapiente?
+
+                        Odio, consectetur voluptatem earum nam sequi, voluptatibus adipisci error veritatis necessitatibus consequuntur autem quisquam dolor perferendis nesciunt fugiat placeat aspernatur velit, officia dolore. Cum quia quod laudantium pariatur. Repellendus, velit?
+
+                        Temporibus, molestias dolor magni soluta nesciunt eveniet exercitationem in inventore assumenda aut non amet provident quam repudiandae iure qui, maxime iste fugit veniam alias nobis rem reprehenderit? Libero, sint culpa! Quam nemo animi accusantium quod praesentium. Suscipit reiciendis doloremque ab iste, odit rem illo asperiores, odio consequuntur minima ullam quod. Suscipit veniam molestiae beatae facilis? Expedita officia enim soluta quos. 
+                        
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore numquam quam repellendus molestias deleniti tempora porro at error. Esse fugiat harum neque totam quisquam</p>
+                    </div>
+        
+                </div><!-- .blogPost END  -->
+            </div><!-- .wrapper END  -->
         </section>
     </main>
 
@@ -71,7 +87,8 @@
     <footer class="blogFooter" id="blogFooter">
         <div class="wrapper">
             <div class="comments">
-                <h3>Comments</h3>
+                
+                <h3>Comments:</h3>
                 <div class="commentsContainer">
 
                     <div class="image commentImage1">
@@ -92,11 +109,18 @@
                 </div> <!-- .commentsContainer END  -->
             </div> <!-- .comments END  -->
 
-        <form action="">
+        <form action="" class="blogComment" name="blogComment">
+            <label for="name" class="sr-only">Name</label>
+            <input type="text" id="name" placeholder="">
 
+            <label for="email" class="sr-only">Email address</label>
+            <input type="email" id="email" placeholder="">
+
+            <label for="comment" class="sr-only"></label>
+            <textarea name="comment" id="comment" cols="60" rows="10" placeholder="Comment"></textarea>
         </form>
-        </div> <!-- .wrapper END  -->
 
+        </div> <!-- .wrapper END  -->
         <div class="copyright">
             <p>Copyright &#169 2019 HackerYou</p>
         </div>
