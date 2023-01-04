@@ -1,4 +1,21 @@
+@import "./variables";
+
 img {
     display: block;
     max-width: 100%;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none; 
 }
