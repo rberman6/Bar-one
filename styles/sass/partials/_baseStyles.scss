@@ -19,3 +19,67 @@ ul, li, a {
 li {
     list-style: none; 
 }
+
+// Default anchor link styles //
+
+a {
+    &.solid {
+        color: $solidWhite;
+        background-color: $tertiary;
+        padding: 5px 30px;
+        font-family: $headingFont;
+        letter-spacing: 2px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            background-color: $quaternary;
+            color: $primary;
+        }
+        &:focus {
+            background-color: $quaternary;
+            color: $primary;
+        }
+    }
+
+    // styles for smallLink //
+
+    &.smallLink {
+        color: $quaternary;
+        font-size: 1.95rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.11rem;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.6;
+            color: $primary;
+        }
+        &:focus {
+            opacity: 0.6;
+            color: $primary;
+        }
+    }
+}
+
+// Default styles for buttons //
+
+button {
+    color: $solidWhite;
+    background-color: $tertiary;
+    padding: 5px 30px;
+    font-family: $headingFont;
+    letter-spacing: 2px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+            background-color: $quaternary;
+            color: $primary;
+        }
+    
+        &:focus {
+            background-color: $quaternary;
+            color: $primary;
+        }
+}
