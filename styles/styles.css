@@ -330,6 +330,7 @@ h2 {
   font-weight: 700;
   line-height: 4.73rem;
   letter-spacing: 0.13rem;
+  color: #FFFFFF;
 }
 
 h3 {
@@ -389,5 +390,40 @@ a {
           justify-content: center;
 }
 .navBar ul li {
-  margin: 20px 20px 0 20px;
+  margin: 40px 20px 0 20px;
+}
+
+.heroHeader {
+  background-image: url("../assets/home-image-1.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.heroHeader .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: relative;
+}
+.heroHeader .wrapper .headerContent {
+  position: relative;
+  top: 280px;
+  z-index: 20;
+}
+.heroHeader .wrapper h1 {
+  margin-bottom: -60px;
+}
+.heroHeader .imgHeaderBox {
+  width: 50%;
+  margin-left: auto;
+  margin-top: -10px;
 }
