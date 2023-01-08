@@ -71,14 +71,14 @@ button {
     letter-spacing: 2px;
     text-align: center;
     border: none;
+    width: 60%;
     cursor: pointer;
     transition: 0.3s;
     &:hover {
             background-color: $quaternary;
             color: $primary;
-        }
-    
-        &:focus {
+        }  
+    &:focus {
             background-color: $quaternary;
             color: $primary;
         }
