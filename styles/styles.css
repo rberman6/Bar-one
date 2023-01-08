@@ -308,7 +308,7 @@ html {
 }
 
 h1,
-.logo h2 {
+.logo {
   font-family: "Tulpen One", cursive;
   font-weight: 400;
   margin: 0;
@@ -378,4 +378,16 @@ a {
 
 .recentPosts li {
   list-style: disc;
+}
+
+.navBar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.navBar ul li {
+  margin: 20px 20px 0 20px;
 }
