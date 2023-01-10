@@ -1,0 +1,34 @@
+// **** ABOUT SECTION **** //
+
+.about {
+    background-color: $primary;
+    color: $solidWhite;
+    position: relative;
+    padding-top: 170px;
+    padding-bottom: 100px;
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        .textContainer {
+            width: 50%;
+            padding-bottom: 50px;
+            .icons {
+                display: inline-block;
+                position: relative;
+                top: -7px;
+                color: $solidWhite;
+                background-color: $tertiary;
+                padding: 15px 10px 10px 10px;
+                border-radius: 50%;
+            }
+            h3 {
+                display: inline-block;  
+                padding-left: 10px; 
+            }
+            p {
+                margin-left: 60px;;
+            }
+        }
+       }
+    }
+

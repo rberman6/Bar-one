@@ -396,6 +396,7 @@ a {
 .heroHeader {
   background-image: url("../assets/home-image-1.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
 }
 .heroHeader .wrapper {
@@ -426,4 +427,41 @@ a {
   width: 50%;
   margin-left: auto;
   margin-top: -10px;
+  position: relative;
+  z-index: 10;
+}
+
+.about {
+  background-color: #111010;
+  color: #FFFFFF;
+  position: relative;
+  padding-top: 170px;
+  padding-bottom: 100px;
+}
+.about .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.about .wrapper .textContainer {
+  width: 50%;
+  padding-bottom: 50px;
+}
+.about .wrapper .textContainer .icons {
+  display: inline-block;
+  position: relative;
+  top: -7px;
+  color: #FFFFFF;
+  background-color: #BF2603;
+  padding: 15px 10px 10px 10px;
+  border-radius: 50%;
+}
+.about .wrapper .textContainer h3 {
+  display: inline-block;
+  padding-left: 10px;
+}
+.about .wrapper .textContainer p {
+  margin-left: 60px;
 }

@@ -3,6 +3,7 @@
 .heroHeader {
     background-image: url("../assets/home-image-1.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
 
     .wrapper {
@@ -28,7 +29,10 @@
         width: 50%;
         margin-left: auto;
         margin-top: -10px;
+        position: relative;
+        z-index: 10;
 
     }
     
 }
+
