@@ -423,8 +423,7 @@ a {
   margin-bottom: -60px;
 }
 .heroHeader .imgHeaderBox {
-  width: 50%;
-  margin-left: auto;
+  float: right;
   margin-top: -10px;
   position: relative;
   bottom: 380px;
@@ -435,7 +434,6 @@ a {
   background-color: #111010;
   color: #FFFFFF;
   position: relative;
-  padding-top: 170px;
   padding-bottom: 100px;
 }
 .about .wrapper {
@@ -506,7 +504,7 @@ a {
 .planAhead .planContainer .image2 .solid,
 .planAhead .planContainer .planTextContainer .solid {
   margin-left: 30px;
-  width: 15%;
+  width: 20%;
 }
 
 .image1 img {
@@ -584,4 +582,24 @@ a {
 .events .wrapper .eventsTextContainer p {
   color: #FFFFFF;
   margin-bottom: 30px;
+}
+
+.footerGallery {
+  background-color: #220303;
+  padding-top: 100px;
+}
+.footerGallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 100px;
+}
+.footerGallery ul li {
+  margin: 0 15px;
+}
+
+.copyright {
+  background-color: grey;
+  color: #FFFFFF;
+  padding: 7px 0;
 }

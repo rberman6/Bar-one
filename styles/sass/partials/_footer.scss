@@ -1,0 +1,19 @@
+//**** FOOTER FOR HOME PAGE!!! ****//
+
+.footerGallery {
+    background-color: $secondary;
+    padding-top: 100px;
+    ul {
+        display: flex;
+        padding-bottom: 100px;
+        li {
+            margin: 0 15px;
+        }
+    }
+}
+
+.copyright {
+    background-color: grey;
+    color: $solidWhite;
+    padding: 7px 0;
+}
