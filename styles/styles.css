@@ -400,6 +400,7 @@ a {
   height: 100vh;
 }
 .heroHeader .wrapper {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -416,8 +417,6 @@ a {
   position: relative;
 }
 .heroHeader .wrapper .headerContent {
-  position: relative;
-  top: 280px;
   z-index: 20;
 }
 .heroHeader .wrapper h1 {
@@ -428,6 +427,7 @@ a {
   margin-left: auto;
   margin-top: -10px;
   position: relative;
+  bottom: 380px;
   z-index: 10;
 }
 
@@ -463,5 +463,125 @@ a {
   padding-left: 10px;
 }
 .about .wrapper .textContainer p {
-  margin-left: 60px;
+  margin-left: 62px;
+}
+
+.planAhead {
+  background-color: #220303;
+}
+.planAhead .planContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.planAhead .planContainer .image1,
+.planAhead .planContainer .image2,
+.planAhead .planContainer .planTextContainer {
+  width: 50%;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.planAhead .planContainer .image1 h3,
+.planAhead .planContainer .image1 p,
+.planAhead .planContainer .image2 h3,
+.planAhead .planContainer .image2 p,
+.planAhead .planContainer .planTextContainer h3,
+.planAhead .planContainer .planTextContainer p {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+.planAhead .planContainer .image1 .solid,
+.planAhead .planContainer .image2 .solid,
+.planAhead .planContainer .planTextContainer .solid {
+  margin-left: 30px;
+  width: 15%;
+}
+
+.image1 img {
+  -webkit-box-shadow: 12px 12px #FF8327;
+          box-shadow: 12px 12px #FF8327;
+}
+
+.image2 img {
+  -webkit-box-shadow: -12px 12px #FF8327;
+          box-shadow: -12px 12px #FF8327;
+}
+
+.hostParty {
+  background-color: #111010;
+  padding: 130px 0;
+}
+.hostParty .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.hostParty .wrapper h3 {
+  color: #FF8327;
+  margin-bottom: 30px;
+}
+.hostParty .wrapper p {
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bannerImage {
+  background-image: url("../assets/banner-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+}
+
+.events {
+  background-color: #111010;
+  padding: 100px 0;
+}
+.events .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.events .wrapper .boxImage {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 35%;
+          flex: 1 0 35%;
+}
+.events .wrapper .boxImage img {
+  -webkit-box-shadow: -12px 12px #FF8327;
+          box-shadow: -12px 12px #FF8327;
+}
+.events .wrapper .eventsTextContainer {
+  margin-top: -10px;
+}
+.events .wrapper .eventsTextContainer h3 {
+  color: #FF8327;
+  margin-bottom: 20px;
+}
+.events .wrapper .eventsTextContainer p {
+  color: #FFFFFF;
+  margin-bottom: 30px;
 }

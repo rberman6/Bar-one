@@ -26,9 +26,106 @@
                 padding-left: 10px; 
             }
             p {
-                margin-left: 60px;;
+                margin-left: 62px;;
             }
         }
        }
     }
 
+// **** PLAN AHEAH & LOCATIONS SECTION **** //
+
+.planAhead {
+    background-color: $secondary;
+    .planContainer {
+    display: flex;
+    flex-wrap: wrap;
+    .image1,
+    .image2,
+    .planTextContainer {
+        width: 50%;
+        color: $solidWhite;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+     h3,
+     p {
+        margin-left: 30px;
+        margin-bottom: 20px;
+        width: 60%;
+     }
+     .solid {
+        margin-left: 30px;
+        width: 15%;
+     }
+        }     
+    }
+}
+
+.image1 img {
+    box-shadow: 12px 12px $quaternary;
+}
+
+.image2 img {
+    box-shadow: -12px 12px $quaternary;
+}
+
+// **** HOST A PARTY SECTION **** //
+
+.hostParty {
+    background-color: $primary;
+    padding: 130px 0;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h3 {
+            color: $quaternary;
+            margin-bottom: 30px;
+        }
+        p {
+            color: $solidWhite;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+//**** BANNER BEER IMAGE SECTION ****//
+
+.bannerImage
+    {
+    background-image: url("../assets/banner-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+ }
+
+// **** EVENTS SECTION **** //
+
+.events {
+    background-color: $primary;
+    padding: 100px 0;
+    .wrapper {
+        display: flex;
+        .boxImage {
+            flex: 1 0 35%;
+            img {
+                box-shadow: -12px 12px $quaternary;
+            }
+        }  
+        .eventsTextContainer {
+            margin-top: -10px;
+            h3 {
+                color: $quaternary;
+                margin-bottom: 20px;
+            }
+            p {
+                color: $solidWhite;
+                margin-bottom: 30px;
+            }
+        } 
+    }
+}
