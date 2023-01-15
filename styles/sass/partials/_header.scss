@@ -30,4 +30,22 @@
     }
 }
 
+// **** OUR BLOG HEADER PAGE **** //
 
+.blogHeader {
+    background-image: url("../assets/blog-header-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    .wrapper {
+        height: 100%;
+        h2 {
+            margin: 200px 0;
+            padding-left: 50px;
+    
+        }
+    
+    }
+
+}

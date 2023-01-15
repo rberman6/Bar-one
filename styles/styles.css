@@ -430,6 +430,21 @@ a {
   z-index: 10;
 }
 
+.blogHeader {
+  background-image: url("../assets/blog-header-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+}
+.blogHeader .wrapper {
+  height: 100%;
+}
+.blogHeader .wrapper h2 {
+  margin: 200px 0;
+  padding-left: 50px;
+}
+
 .about {
   background-color: #111010;
   color: #FFFFFF;
@@ -582,6 +597,41 @@ a {
 .events .wrapper .eventsTextContainer p {
   color: #FFFFFF;
   margin-bottom: 30px;
+}
+
+.blogContainer {
+  background-color: #111010;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.blogContainer .blogSideBar {
+  margin-top: 100px;
+  background-color: #220303;
+  height: 850px;
+  margin-right: 60px;
+  margin-left: 60px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 30%;
+          flex: 1 0 30%;
+  color: #FFFFFF;
+  position: relative;
+}
+.blogContainer .blogSideBar .blogList {
+  margin-left: 35px;
+}
+.blogContainer .blogSideBar .blogList h3 {
+  margin-top: 10px;
+  width: 70%;
+}
+.blogContainer .blogSideBar .blogList p {
+  width: 70%;
+}
+.blogContainer .blogSideBar .sideBarImage {
+  position: relative;
+  bottom: 30px;
+  right: 60px;
 }
 
 .footerGallery {

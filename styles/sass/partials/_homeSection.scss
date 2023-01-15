@@ -130,5 +130,61 @@
     }
 }
 
+// **** BLOG SECTIONS !!! ****//
 
+// .blogContainer {
+//     background-color: $primary;
+//     display: flex;
+//     .blogSideBar {
+//         height: 95%;
+//         padding-bottom: 15px;
+//         margin: 10px 60px;
+//         background-color: $secondary;
+//         flex: 1 0 35%;
+//         padding-top: 60px;
+//         padding-right: 50px;
+//         color: $solidWhite;
+//         .blogList {
+//             margin-left: 40px;
+//             h3 {
+//                 margin-top: 10px;
+//             }
+//             p {
+//                 width: 50%;
+//             }
+//         }
+//     }
+// }
+
+.blogContainer {
+    background-color: $primary;
+    display: flex;
+    position: relative;
+
+    .blogSideBar {
+        margin-top: 100px;
+        background-color: $secondary;
+        height: 850px;
+        margin-right: 60px;
+        margin-left: 60px;
+        flex: 1 0 30%;
+        color: $solidWhite; 
+        position: relative; 
+        .blogList {
+            margin-left: 35px;
+            h3 {
+                margin-top: 10px;
+                width: 70%;
+            }
+            p {
+                width: 70%;
+            }
+        }
+        .sideBarImage {
+            position: relative;
+            bottom: 30px;
+            right: 60px;
+        }
+    }
+}
 
