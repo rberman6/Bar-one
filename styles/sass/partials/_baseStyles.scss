@@ -52,11 +52,11 @@ a {
         cursor: pointer;
         &:hover {
             opacity: 0.6;
-            color: $primary;
+            color: $solidWhite;
         }
         &:focus {
             opacity: 0.6;
-            color: $primary;
+            color: $solidWhite;
         }
     }
 }
@@ -83,3 +83,6 @@ button {
             color: $primary;
         }
 }
+
+
+

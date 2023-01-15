@@ -1,4 +1,4 @@
-// **** HEADER HOME PAGE **** //
+// **** HEADER HOME PAGE!!! **** //
 
 .heroHeader {
     background-image: url("../assets/home-image-1.jpg");
@@ -38,14 +38,12 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 70vh;
+    position: relative;
     .wrapper {
-        height: 100%;
         h2 {
-            margin: 200px 0;
+            margin: 150px 0;
             padding-left: 50px;
-    
         }
-    
-    }
-
+   }
 }
+

@@ -274,11 +274,11 @@ a.smallLink {
 }
 a.smallLink:hover {
   opacity: 0.6;
-  color: #111010;
+  color: #FFFFFF;
 }
 a.smallLink:focus {
   opacity: 0.6;
-  color: #111010;
+  color: #FFFFFF;
 }
 
 button {
@@ -436,12 +436,10 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   height: 70vh;
-}
-.blogHeader .wrapper {
-  height: 100%;
+  position: relative;
 }
 .blogHeader .wrapper h2 {
-  margin: 200px 0;
+  margin: 150px 0;
   padding-left: 50px;
 }
 
@@ -632,6 +630,36 @@ a {
   position: relative;
   bottom: 30px;
   right: 60px;
+}
+
+.blogPost {
+  position: relative;
+  bottom: 90px;
+  z-index: 20;
+  margin-left: 50px;
+}
+.blogPost .blogImage img {
+  -webkit-box-shadow: -12px 12px #FF8327;
+          box-shadow: -12px 12px #FF8327;
+}
+
+.blogTextContainer {
+  border-bottom: solid 6px #FF8327;
+  border-left: solid 6px #FF8327;
+  padding: 45px 80px;
+  margin-top: 10px;
+  margin-left: -12px;
+  width: 95%;
+}
+.blogTextContainer h3 {
+  color: #FFFFFF;
+}
+.blogTextContainer h4 {
+  color: #FF8327;
+  margin-bottom: 25px;
+}
+.blogTextContainer p {
+  color: #FFFFFF;
 }
 
 .footerGallery {
