@@ -17,3 +17,44 @@
     color: $solidWhite;
     padding: 7px 0;
 }
+
+// **** BLOG FOOTER - COMMENTS SECTION!! ****//
+
+.blogFooter {
+    background-color: $primary;
+    h3 {
+            color: $solidWhite;
+            margin-bottom: 40px;
+            margin-left: 45px;
+            text-align: center;
+        }
+    .comments {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: 45px;
+    }
+    h4 {
+        color: $quaternary;
+    }
+    p {
+        color: $solidWhite;
+    }
+    .commentsContainer {
+        display: flex;
+        width: 60%;
+            .commentsText {
+                width: 80%;
+                margin-bottom: 50px;
+            }
+            .commentImage1,
+            .commentImage2 {
+                padding: 5px 28px 15px 5px;
+            }
+        }
+        // .copyright p {
+        //     // margin-bottom: 0;
+        // }
+    }
+
+

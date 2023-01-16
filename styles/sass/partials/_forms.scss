@@ -1,0 +1,38 @@
+// **** FORM SECTION OF THE BLOG PAGE!!! ****//
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+    label {
+        font-family: $bodyFont;
+        margin-bottom: 20px;
+    }
+    input {
+        width: 30%;
+        border: none;
+        border-bottom: solid 2px $quaternary;
+        padding-bottom: 40px;
+        margin-bottom: 45px;
+    }
+    textarea {
+        border: solid 2px $quaternary;
+        padding: 20px 0 35px 35px;
+        margin-bottom: 30px;
+        width: 61%;
+    }
+    input,
+    textarea {
+        
+        margin-left: 10px;
+        background-color: $primary;
+    }
+        input::placeholder,
+        textarea::placeholder {
+            color: $solidWhite;
+            font-family: $bodyFont;
+            font-size: 1.5rem;
+
+        }
+}
+

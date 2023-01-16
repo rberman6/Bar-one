@@ -67,11 +67,12 @@ button {
     color: $solidWhite;
     background-color: $tertiary;
     padding: 5px 30px;
+    margin-bottom: 60px;
     font-family: $headingFont;
     letter-spacing: 2px;
     text-align: center;
     border: none;
-    width: 60%;
+    width: 61%;
     cursor: pointer;
     transition: 0.3s;
     &:hover {

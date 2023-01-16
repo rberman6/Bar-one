@@ -285,11 +285,12 @@ button {
   color: #FFFFFF;
   background-color: #BF2603;
   padding: 5px 30px;
+  margin-bottom: 60px;
   font-family: "Tulpen One", cursive;
   letter-spacing: 2px;
   text-align: center;
   border: none;
-  width: 60%;
+  width: 61%;
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -391,6 +392,15 @@ a {
 }
 .navBar ul li {
   margin: 40px 20px 0 20px;
+}
+.navBar ul li a {
+  color: #FFFFFF;
+}
+.navBar ul li a:hover {
+  color: #FF8327;
+}
+.navBar ul li a:focus {
+  color: #FF8327;
 }
 
 .heroHeader {
@@ -636,7 +646,7 @@ a {
   position: relative;
   bottom: 90px;
   z-index: 20;
-  margin-left: 50px;
+  margin-left: 45px;
 }
 .blogPost .blogImage img {
   -webkit-box-shadow: -12px 12px #FF8327;
@@ -680,4 +690,106 @@ a {
   background-color: grey;
   color: #FFFFFF;
   padding: 7px 0;
+}
+
+.blogFooter {
+  background-color: #111010;
+}
+.blogFooter h3 {
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  margin-left: 45px;
+  text-align: center;
+}
+.blogFooter .comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-left: 45px;
+}
+.blogFooter h4 {
+  color: #FF8327;
+}
+.blogFooter p {
+  color: #FFFFFF;
+}
+.blogFooter .commentsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+}
+.blogFooter .commentsContainer .commentsText {
+  width: 80%;
+  margin-bottom: 50px;
+}
+.blogFooter .commentsContainer .commentImage1,
+.blogFooter .commentsContainer .commentImage2 {
+  padding: 5px 28px 15px 5px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+form label {
+  font-family: "Chathura", sans-serif;
+  margin-bottom: 20px;
+}
+form input {
+  width: 30%;
+  border: none;
+  border-bottom: solid 2px #FF8327;
+  padding-bottom: 40px;
+  margin-bottom: 45px;
+}
+form textarea {
+  border: solid 2px #FF8327;
+  padding: 20px 0 35px 35px;
+  margin-bottom: 30px;
+  width: 61%;
+}
+form input,
+form textarea {
+  margin-left: 10px;
+  background-color: #111010;
+}
+form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  font-size: 1.5rem;
+}
+form input::-moz-placeholder, form textarea::-moz-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  font-size: 1.5rem;
+}
+form input:-ms-input-placeholder, form textarea:-ms-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  font-size: 1.5rem;
+}
+form input::-ms-input-placeholder, form textarea::-ms-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  font-size: 1.5rem;
+}
+form input::placeholder,
+form textarea::placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  font-size: 1.5rem;
 }
