@@ -36,3 +36,17 @@ form {
         }
 }
 
+//**** FORM SECTION FOR CONTACT PAGE !!! ****//
+
+.contact {
+    background-color: $primary;
+    .wrapper {
+        display: flex;
+        .contactDetails {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 33%;
+        }
+
+    }
+}
