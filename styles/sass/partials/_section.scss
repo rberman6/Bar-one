@@ -163,6 +163,25 @@
     }
 }
 
+// Bullet points for Recent Posts in blog page//
+.recentPosts ul {
+    color: $solidWhite;
+li {
+    list-style: disc;
+    // Removes the default bullets //
+    // .recentPosts li::before {
+            // content: "\2022"; // \2022 is the unicode for a bullet //
+            color: red; // change the color//
+            // font-weight: bolder; // to make the bullet points bold//
+            // display: inline-block;
+            // width: 1em;
+            // margin-left: -1em;
+        // }
+}
+}
+
+
+
 .blogPost {
     position: relative;
     bottom: 90px;

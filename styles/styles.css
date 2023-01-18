@@ -421,22 +421,23 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: relative;
 }
 .heroHeader .wrapper .headerContent {
   z-index: 20;
 }
-.heroHeader .wrapper h1 {
-  margin-bottom: -60px;
+.heroHeader .wrapper h2 {
+  margin-top: -30px;
+  margin-bottom: 30px;
 }
 .heroHeader .imgHeaderBox {
   float: right;
   margin-top: -10px;
   position: relative;
-  bottom: 380px;
+  bottom: 390px;
   z-index: 10;
 }
 
@@ -652,6 +653,14 @@ a {
   position: relative;
   bottom: 30px;
   right: 60px;
+}
+
+.recentPosts ul {
+  color: #FFFFFF;
+}
+.recentPosts ul li {
+  list-style: disc;
+  color: red;
 }
 
 .blogPost {
