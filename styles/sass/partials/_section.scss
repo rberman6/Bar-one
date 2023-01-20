@@ -4,14 +4,14 @@
     background-color: $primary;
     color: $solidWhite;
     position: relative;
-    // padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 190px;
+    padding-bottom: 110px;
     .wrapper {
         display: flex;
         flex-wrap: wrap;
         .textContainer {
             width: 50%;
-            padding-bottom: 50px;
+            padding-bottom: 60px;
             .icons {
                 display: inline-block;
                 position: relative;
@@ -39,6 +39,21 @@
     .planContainer {
     display: flex;
     flex-wrap: wrap;
+    // .planTextContainer {
+    //     padding-left: 100px;
+    // }
+    .image1 {
+        padding-right: 90px;
+        position: relative;
+        bottom: 65px;
+        z-index: 10;
+    }
+    .image2 {
+        padding-left: 90px;
+        position: relative;
+        bottom: -65px;
+        z-index: 10;
+    }
     .image1,
     .image2,
     .planTextContainer {
@@ -47,18 +62,32 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+        padding-top: 30px;
+        padding-bottom: 30px;  
      h3,
      p {
-        margin-left: 30px;
-        margin-bottom: 20px;
-        width: 60%;
+        // margin-left: 30px;
+        margin-bottom: 35px;
+        width: 90%;
      }
      .solid {
-        margin-left: 30px;
-        width: 20%;
+        // margin-left: 30px;
+        width: 25%;
      }
         }     
+    }
+}
+.rightAligned {
+    padding-left: 90px;
+    padding-right: 10px;
+}
+.leftAligned {
+    text-align: right;
+    align-items: flex-end;
+    padding-right: 90px;
+    p {
+        text-align: left;
+        padding-left: 50px;
     }
 }
 

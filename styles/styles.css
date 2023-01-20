@@ -408,6 +408,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  position: relative;
 }
 .heroHeader .wrapper {
   height: 100%;
@@ -424,7 +425,6 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: relative;
 }
 .heroHeader .wrapper .headerContent {
   z-index: 20;
@@ -434,10 +434,10 @@ a {
   margin-bottom: 30px;
 }
 .heroHeader .imgHeaderBox {
-  float: right;
   margin-top: -10px;
-  position: relative;
-  bottom: 390px;
+  position: absolute;
+  right: 0px;
+  bottom: -110px;
   z-index: 10;
 }
 
@@ -470,7 +470,8 @@ a {
   background-color: #111010;
   color: #FFFFFF;
   position: relative;
-  padding-bottom: 100px;
+  padding-top: 190px;
+  padding-bottom: 110px;
 }
 .about .wrapper {
   display: -webkit-box;
@@ -481,7 +482,7 @@ a {
 }
 .about .wrapper .textContainer {
   width: 50%;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 .about .wrapper .textContainer .icons {
   display: inline-block;
@@ -510,6 +511,18 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+.planAhead .planContainer .image1 {
+  padding-right: 90px;
+  position: relative;
+  bottom: 65px;
+  z-index: 10;
+}
+.planAhead .planContainer .image2 {
+  padding-left: 90px;
+  position: relative;
+  bottom: -65px;
+  z-index: 10;
+}
 .planAhead .planContainer .image1,
 .planAhead .planContainer .image2,
 .planAhead .planContainer .planTextContainer {
@@ -525,6 +538,8 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .planAhead .planContainer .image1 h3,
 .planAhead .planContainer .image1 p,
@@ -532,15 +547,30 @@ a {
 .planAhead .planContainer .image2 p,
 .planAhead .planContainer .planTextContainer h3,
 .planAhead .planContainer .planTextContainer p {
-  margin-left: 30px;
-  margin-bottom: 20px;
-  width: 60%;
+  margin-bottom: 35px;
+  width: 90%;
 }
 .planAhead .planContainer .image1 .solid,
 .planAhead .planContainer .image2 .solid,
 .planAhead .planContainer .planTextContainer .solid {
-  margin-left: 30px;
-  width: 20%;
+  width: 25%;
+}
+
+.rightAligned {
+  padding-left: 90px;
+  padding-right: 10px;
+}
+
+.leftAligned {
+  text-align: right;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-right: 90px;
+}
+.leftAligned p {
+  text-align: left;
+  padding-left: 50px;
 }
 
 .image1 img {

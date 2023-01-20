@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    position: relative;
 
     .wrapper {
         height: 100%;
@@ -12,7 +13,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        position: relative;
         .headerContent {
             z-index: 20;
         }
@@ -23,10 +23,12 @@
     }
 
     .imgHeaderBox {
-        float: right;
         margin-top: -10px;
-        position: relative;
-        bottom: 390px;
+        // position: relative;
+        // bottom: 390px;
+        position: absolute;
+        right: 0px;
+        bottom: -110px;
         z-index: 10;
     }
 }
