@@ -23,12 +23,13 @@
     }
 
     .imgHeaderBox {
+        width: 50%;
         margin-top: -10px;
         // position: relative;
         // bottom: 390px;
         position: absolute;
         right: 0px;
-        bottom: -110px;
+        bottom: -100px;
         z-index: 10;
     }
 }
