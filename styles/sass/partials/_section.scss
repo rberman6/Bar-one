@@ -4,14 +4,17 @@
     background-color: $primary;
     color: $solidWhite;
     position: relative;
-    padding-top: 190px;
+    padding-top: 150px;
     padding-bottom: 110px;
     .wrapper {
         display: flex;
         flex-wrap: wrap;
         .textContainer {
-            width: 50%;
-            padding-bottom: 60px;
+            // width: 50%;
+            
+            margin-bottom: 70px;
+            width: calc(100% / 2 - 20px);
+            margin-right: 10px;
             .icons {
                 display: inline-block;
                 position: relative;
@@ -26,7 +29,8 @@
                 padding-left: 10px; 
             }
             p {
-                margin-left: 62px;;
+                margin-left: 62px;
+            
             }
         }
        }
@@ -159,7 +163,7 @@
     }
 }
 
-// **** BLOG SECTIONS !!! ****//  
+// **** BLOG SECTIONS IN BLOG PAGE !!! ****//  
 
 .blogContainer {
     background-color: $primary;
@@ -210,7 +214,6 @@ li {
 }
 
 
-
 .blogPost {
     position: relative;
     bottom: 90px;
@@ -239,5 +242,5 @@ li {
     p {
         color: $solidWhite;
     }
-
 }
+

@@ -304,6 +304,10 @@ button:focus {
   color: #111010;
 }
 
+.submitContactButton {
+  width: 81%;
+}
+
 html {
   font-size: 125%;
 }
@@ -438,7 +442,7 @@ a {
   margin-top: -10px;
   position: absolute;
   right: 0px;
-  bottom: -100px;
+  bottom: -70px;
   z-index: 10;
 }
 
@@ -471,7 +475,7 @@ a {
   background-color: #111010;
   color: #FFFFFF;
   position: relative;
-  padding-top: 190px;
+  padding-top: 150px;
   padding-bottom: 110px;
 }
 .about .wrapper {
@@ -482,8 +486,9 @@ a {
       flex-wrap: wrap;
 }
 .about .wrapper .textContainer {
-  width: 50%;
-  padding-bottom: 60px;
+  margin-bottom: 70px;
+  width: calc(50% - 20px);
+  margin-right: 10px;
 }
 .about .wrapper .textContainer .icons {
   display: inline-block;
@@ -787,7 +792,7 @@ a {
   padding: 5px 28px 15px 5px;
 }
 
-form {
+.blogComment form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -797,50 +802,54 @@ form {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-form label {
+.blogComment form label {
   font-family: "Chathura", sans-serif;
   margin-bottom: 20px;
 }
-form input {
+.blogComment form input {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
   width: 30%;
   border: none;
   border-bottom: solid 2px #FF8327;
   padding-bottom: 40px;
   margin-bottom: 45px;
 }
-form textarea {
+.blogComment form textarea {
+  font-family: "Chathura", sans-serif;
+  color: #FFFFFF;
   border: solid 2px #FF8327;
   padding: 20px 0 35px 35px;
   margin-bottom: 30px;
   width: 61%;
 }
-form input,
-form textarea {
+.blogComment form input,
+.blogComment form textarea {
   margin-left: 10px;
   background-color: #111010;
 }
-form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {
+.blogComment form input::-webkit-input-placeholder, .blogComment form textarea::-webkit-input-placeholder {
   color: #FFFFFF;
   font-family: "Chathura", sans-serif;
   font-size: 1.5rem;
 }
-form input::-moz-placeholder, form textarea::-moz-placeholder {
+.blogComment form input::-moz-placeholder, .blogComment form textarea::-moz-placeholder {
   color: #FFFFFF;
   font-family: "Chathura", sans-serif;
   font-size: 1.5rem;
 }
-form input:-ms-input-placeholder, form textarea:-ms-input-placeholder {
+.blogComment form input:-ms-input-placeholder, .blogComment form textarea:-ms-input-placeholder {
   color: #FFFFFF;
   font-family: "Chathura", sans-serif;
   font-size: 1.5rem;
 }
-form input::-ms-input-placeholder, form textarea::-ms-input-placeholder {
+.blogComment form input::-ms-input-placeholder, .blogComment form textarea::-ms-input-placeholder {
   color: #FFFFFF;
   font-family: "Chathura", sans-serif;
   font-size: 1.5rem;
 }
-form input::placeholder,
-form textarea::placeholder {
+.blogComment form input::placeholder,
+.blogComment form textarea::placeholder {
   color: #FFFFFF;
   font-family: "Chathura", sans-serif;
   font-size: 1.5rem;
@@ -848,6 +857,7 @@ form textarea::placeholder {
 
 .contact {
   background-color: #111010;
+  padding-bottom: 110px;
 }
 .contact .wrapper {
   display: -webkit-box;
@@ -855,6 +865,7 @@ form textarea::placeholder {
   display: flex;
 }
 .contact .wrapper .contactDetails {
+  color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -864,4 +875,111 @@ form textarea::placeholder {
           flex-direction: column;
   -ms-flex-preferred-size: 33%;
       flex-basis: 33%;
+  padding-right: 65px;
+}
+.contact .wrapper .contactDetails h4 {
+  margin-bottom: 45px;
+}
+.contact .wrapper .contactDetails h4 a {
+  color: #FFFFFF;
+}
+.contact .wrapper .contactDetails h4 a:hover {
+  color: #FF8327;
+}
+.contact .wrapper .contactDetails h4 a:focus {
+  color: #FF8327;
+}
+.contact .wrapper .socialIconsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 110px;
+  padding-right: 35px;
+  margin-bottom: 25px;
+}
+.contact .wrapper .socialIconsContainer li {
+  color: #FFFFFF;
+}
+.contact .wrapper .socialIconsContainer li a {
+  color: #FFFFFF;
+}
+.contact .wrapper .socialIconsContainer li a:hover {
+  color: #FF8327;
+}
+.contact .wrapper .socialIconsContainer li a:focus {
+  color: #FF8327;
+}
+
+.contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #220303;
+  -webkit-box-shadow: 12px 12px #FF8327;
+          box-shadow: 12px 12px #FF8327;
+  padding-top: 40px;
+  margin-left: 45px;
+  position: relative;
+  bottom: 50px;
+}
+.contactForm label {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  margin-bottom: 20px;
+}
+.contactForm input {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  width: 40%;
+  border: none;
+  border-bottom: solid 2px #FFFFFF;
+  padding-bottom: 40px;
+  margin-bottom: 45px;
+}
+.contactForm textarea {
+  font-family: "Chathura", sans-serif;
+  color: #FFFFFF;
+  border: solid 2px #FFFFFF;
+  padding: 20px 0 35px 35px;
+  margin-bottom: 30px;
+  width: 81%;
+}
+.contactForm input,
+.contactForm textarea {
+  margin-left: 10px;
+  background-color: #220303;
+}
+.contactForm input::-webkit-input-placeholder, .contactForm textarea::-webkit-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  font-size: 1.5rem;
+}
+.contactForm input::-moz-placeholder, .contactForm textarea::-moz-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  font-size: 1.5rem;
+}
+.contactForm input:-ms-input-placeholder, .contactForm textarea:-ms-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  font-size: 1.5rem;
+}
+.contactForm input::-ms-input-placeholder, .contactForm textarea::-ms-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  font-size: 1.5rem;
+}
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  font-size: 1.5rem;
 }

@@ -1,5 +1,5 @@
 // **** FORM SECTION OF THE BLOG PAGE!!! ****//
-form {
+.blogComment form {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -9,6 +9,8 @@ form {
         margin-bottom: 20px;
     }
     input {
+        color: $solidWhite;
+        font-family: $bodyFont;
         width: 30%;
         border: none;
         border-bottom: solid 2px $quaternary;
@@ -16,6 +18,8 @@ form {
         margin-bottom: 45px;
     }
     textarea {
+        font-family: $bodyFont;
+        color: $solidWhite;
         border: solid 2px $quaternary;
         padding: 20px 0 35px 35px;
         margin-bottom: 30px;
@@ -40,13 +44,103 @@ form {
 
 .contact {
     background-color: $primary;
+    padding-bottom: 110px;
     .wrapper {
         display: flex;
         .contactDetails {
+            color: $solidWhite;
             display: flex;
             flex-direction: column;
             flex-basis: 33%;
+            padding-right: 65px;
+            h4 {
+                margin-bottom: 45px;
+            }
+            h4 a {
+                    color: $solidWhite;
+                    &:hover {
+                        color: $quaternary;
+                    }
+            
+                    &:focus {
+                        color: $quaternary;
+                    }
+                }
         }
+        .socialIconsContainer {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 110px;
+            padding-right: 35px;
+            margin-bottom: 25px;
+            li {
+                color: $solidWhite;
+                a {
+                    color: $solidWhite;
+                        &:hover {
+                            color: $quaternary;
+                        }
+                        &:focus {
+                            color: $quaternary;
+                        }
+                    }
+                }
+            }
+         }
+    }
+
+    // **** CONTACT FORM STYLES IN CONTACT PAGE ****//
+
+.contactForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: $secondary;
+    box-shadow: 12px 12px $quaternary;
+    padding-top: 40px;
+    margin-left: 45px;
+    position: relative;
+    bottom: 50px;
+
+    label {
+        color: $solidWhite;
+        font-family: $bodyFont;
+        margin-bottom: 20px;
+    }
+
+    input {
+        color: $solidWhite;
+        font-family: $bodyFont;
+        width: 40%;
+        border: none;
+        border-bottom: solid 2px $solidWhite;
+        padding-bottom: 40px;
+        margin-bottom: 45px;
+    }
+
+    textarea {
+        font-family: $bodyFont;
+        color: $solidWhite;
+        border: solid 2px $solidWhite;
+        padding: 20px 0 35px 35px;
+        margin-bottom: 30px;
+        width: 81%;
+    }
+
+    input,
+    textarea {
+        margin-left: 10px;
+        background-color: $secondary;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        color: $solidWhite;
+        font-family: $bodyFont;
+        font-size: 1.5rem;
 
     }
-}
+
+}   
+
+

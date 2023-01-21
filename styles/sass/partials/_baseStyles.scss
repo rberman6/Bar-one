@@ -63,7 +63,7 @@ a {
 
 // Default styles for buttons //
 
-button {
+ button {
     color: $solidWhite;
     background-color: $tertiary;
     padding: 5px 30px;
@@ -83,7 +83,11 @@ button {
             background-color: $quaternary;
             color: $primary;
         }
+
 }
 
+.submitContactButton {
+    width: 81%;
+}
 
 
