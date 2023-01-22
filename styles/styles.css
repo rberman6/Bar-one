@@ -983,3 +983,170 @@ a {
   font-family: "Chathura", sans-serif;
   font-size: 1.5rem;
 }
+
+/** HOME PAGE RESPONSIVE DESIGN !! **/
+@media (max-width: 480px) {
+  /* General section */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  html {
+    font-size: 100%;
+  }
+  html h1 {
+    font-size: 8rem;
+    text-align: center;
+  }
+  /* Header responsive section  */
+  .navBar ul {
+    display: none;
+  }
+  .heroHeader {
+    background-size: cover;
+    height: 60vh;
+  }
+  .heroHeader .wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .heroHeader .wrapper .headerContent h2 {
+    text-align: center;
+  }
+  .heroHeader .imgHeaderBox {
+    width: 70%;
+    bottom: -40px;
+  }
+}
+/* About responsive section */
+.about {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.about .wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about .wrapper .textContainer {
+  width: 100%;
+}
+
+/* Plan Ahead responsive section */
+.planAhead .planContainer {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 40px;
+}
+.planAhead .planContainer .image1,
+.planAhead .planContainer .image2,
+.planAhead .planContainer .planTextContainer {
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 25px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.planAhead .planContainer .image1 h3,
+.planAhead .planContainer .image2 h3,
+.planAhead .planContainer .planTextContainer h3 {
+  text-align: left;
+}
+.planAhead .planContainer .image1 .solid,
+.planAhead .planContainer .image2 .solid,
+.planAhead .planContainer .planTextContainer .solid {
+  width: 35%;
+}
+.planAhead .planContainer .image1 {
+  bottom: 30px;
+}
+.planAhead .planContainer .image2 {
+  bottom: -35px;
+}
+
+.leftAligned {
+  padding-right: 0;
+  margin-left: 35px;
+}
+.leftAligned p {
+  padding-left: 0;
+}
+
+.rightAligned {
+  padding-left: 0;
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+  margin-top: 60px;
+  margin-left: 35px;
+}
+
+/* Host a party responsive section */
+.hostParty {
+  padding: 80px 0;
+}
+
+/* Banner beer responsive section */
+.bannerImage {
+  background-position: right;
+  height: 30vh;
+}
+
+.events {
+  padding-top: 60px;
+}
+.events .wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.events .wrapper .eventsTextContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 60px;
+}
+.events .wrapper .eventsTextContainer p {
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+/* Footer Gallery responsive */
+.footerGallery {
+  padding-top: 70px;
+}
+.footerGallery ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 70px;
+}
+.footerGallery ul li {
+  margin: 0 5px;
+  width: calc(50% - 10px);
+}
+.footerGallery .imageHidden {
+  display: none;
+}
