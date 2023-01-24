@@ -1,10 +1,150 @@
 /** HOME PAGE RESPONSIVE DESIGN !! **/
 
-// MOBILE VIEW BEWTEEN 320px TO 480px //
+// **** TABLET VIEW BTEWEEN 481px TO 767px !!! *****//
+
+@media (max-width: 767px) {
+
+    /* General section tablet view */ 
+
+    img {
+        max-width: 100%;
+        height: auto;
+    } 
+
+    html {
+        font-size: 100%;
+        h1 {
+         font-size: 8.9rem;
+    }
+}
+
+
+    /*Header tablet responsive section*/ 
+
+.heroHeader {
+    height: 70vh;
+    .wrapper {
+        justify-content: space-around;
+    
+            }
+        }
+
+/* About tablet responsive section */
+
+.about {
+    padding-top: 135px;
+    padding-bottom: 65px;
+    .wrapper {
+            flex-direction: column;
+            align-items: center;
+            .textContainer {
+                width: 100%;
+            }
+    }
+}
+
+/* Plan Ahead section tablet responsive */ 
+
+.planAhead .planContainer {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+
+    .image1,
+    .image2,
+    .planTextContainer {
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 25px;
+        align-items: flex-start;
+
+        h3 {
+            text-align: left;
+        }
+
+        .solid {
+            width: 25%;
+        }
+    }
+
+    .image1 {
+        bottom: 30px;
+        margin-bottom: 25px;
+    }
+
+    .image2 {
+        bottom: -35px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+}
+
+.leftAligned {
+    padding-right: 0;
+    margin-left: 35px;
+
+    p {
+        padding-left: 0;
+    }
+}
+
+.rightAligned {
+    padding-left: 0;
+    order: 4;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+
+/* Want to host a party tablet responsive */ 
+
+.hostParty {
+    padding: 80px 0;
+}
+
+/* Berr Banner section tablet responsive */ 
+
+.bannerImage {
+    background-position: right;
+    height: 40vh;
+}
+
+.events {
+    padding-top: 85px;
+    padding-bottom: 110px;
+    .wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+        .eventsTextContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 70px;
+            p {
+                margin-top: 20px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+//**** MOBILE VIEW BEWTEEN 320px TO 480px !!! ****//
 
 @media (max-width: 480px) {
 
-    /* General section */
+    /* General styles mobile responsive*/
     img {
         max-width: 100%;
         height: auto;
@@ -19,7 +159,7 @@
     }
 
 
-    /* Header responsive section  */
+    /* Header mobile responsive   */
     .navBar ul {
     display: none;
     }
@@ -39,9 +179,9 @@
         bottom: -40px;
         }
     }
-}
 
-    /* About responsive section */
+
+    /* About mobile responsive section */
 
     .about {
         padding-top: 100px;
@@ -56,7 +196,7 @@
     }
 }
 
-/* Plan Ahead responsive section */
+/* Plan Ahead mobile responsive section */
 
 .planAhead .planContainer {
     flex-direction: column;
@@ -100,20 +240,20 @@
     margin-left: 35px;
 }
 
-/* Host a party responsive section */
+/* Host a party mobile responsive section */
 
 .hostParty {
     padding: 80px 0;
 }
 
-/* Banner beer responsive section */
+/* Banner beer mobile responsive section */
 
 .bannerImage {
     background-position: right;
     height: 30vh;
 }
 
-// * Events responsive section */
+// * Events mobile responsive section */
 
 .events {
     padding-top: 60px;
@@ -133,7 +273,7 @@
 }
 }
 
-/* Footer Gallery responsive */
+/* Footer Gallery mobile responsive */
 
 .footerGallery {
     padding-top: 70px;
@@ -141,8 +281,8 @@
         align-items: center;
         padding-bottom: 70px;
         li {
-            margin: 0 5px;
-            width: calc(100% / 2 - 10px);
+            margin: 0 7px;
+            width: calc(100% / 2 - 14px);
         }
     }
     .imageHidden {
@@ -151,3 +291,6 @@
 
 }
 
+}
+
+/**** END OF MOBILE RESPONSIVE DESIGN ****/

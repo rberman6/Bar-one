@@ -5,14 +5,14 @@
     color: $solidWhite;
     position: relative;
     padding-top: 150px;
-    padding-bottom: 110px;
+    padding-bottom: 120px;
     .wrapper {
         display: flex;
         flex-wrap: wrap;
         .textContainer {
             // width: 50%;
             
-            margin-bottom: 70px;
+            margin-bottom: 90px;
             width: calc(100% / 2 - 20px);
             margin-right: 10px;
             .icons {
@@ -23,6 +23,15 @@
                 background-color: $tertiary;
                 padding: 15px 10px 10px 10px;
                 border-radius: 50%;
+                .fa-file {
+                    padding: 10px 5px 7px 5px;
+                }
+                .fa-people-group{
+                    padding: 0 2px;
+                }
+                .fa-phone-flip {
+                    padding: 0 2px;
+                }
             }
             h3 {
                 display: inline-block;  
@@ -40,6 +49,7 @@
 
 .planAhead {
     background-color: $secondary;
+    padding-bottom: 40px;
     .planContainer {
     display: flex;
     flex-wrap: wrap;
@@ -49,13 +59,13 @@
     .image1 {
         padding-right: 90px;
         position: relative;
-        bottom: 65px;
+        bottom: 105px;
         z-index: 10;
     }
     .image2 {
         padding-left: 90px;
         position: relative;
-        bottom: -65px;
+        bottom: -105px;
         z-index: 10;
     }
     .image1,
@@ -76,7 +86,7 @@
      }
      .solid {
         // margin-left: 30px;
-        width: 28%;
+        width: 30%;
      }
         }     
     }
@@ -107,7 +117,7 @@
 
 .hostParty {
     background-color: $primary;
-    padding: 130px 0;
+    padding: 140px 0;
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -132,6 +142,7 @@
     background-image: url("../assets/banner-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
     height: 60vh;
     width: 100%;
  }
@@ -151,6 +162,7 @@
         }  
         .eventsTextContainer {
             margin-top: -10px;
+            margin-left: 30px;
             h3 {
                 color: $quaternary;
                 margin-bottom: 20px;
@@ -172,7 +184,7 @@
     .blogSideBar {
         margin-top: 100px;
         background-color: $secondary;
-        height: 850px;
+        height: 870px;
         margin-right: 60px;
         margin-left: 60px;
         flex: 1 0 30%;
@@ -181,8 +193,8 @@
         .blogList {
             margin-left: 35px;
             h3 {
-                margin-top: 10px;
-                width: 70%;
+                margin-top: 40px;
+                
             }
             p {
                 width: 70%;
@@ -197,20 +209,20 @@
 }
 
 // Bullet points for Recent Posts in blog page//
-.recentPosts ul {
+.recentPosts {
     color: $solidWhite;
 li {
-    list-style: disc;
+    list-style: none;
     // Removes the default bullets //
-    // .recentPosts li::before {
-            // content: "\2022"; // \2022 is the unicode for a bullet //
-            color: red; // change the color//
-            // font-weight: bolder; // to make the bullet points bold//
-            // display: inline-block;
-            // width: 1em;
-            // margin-left: -1em;
-        // }
-}
+    }
+    li::before {
+    content: "\2022"; // \2022 is the unicode for a bullet //
+    color: red; // change the color//
+    font-weight: bolder; // to make the bullet points bold//
+    display: inline-block; // to add height/width to your element
+    margin-right: 15px; // add space between the butllet point and list//
+    transform: scale(5); // increase the size of bullet point //
+    }
 }
 
 
