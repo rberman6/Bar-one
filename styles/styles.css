@@ -434,6 +434,10 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.heroHeader .wrapper .menuToggle {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
 .heroHeader .wrapper .headerContent {
   z-index: 20;
 }
@@ -1008,6 +1012,11 @@ a {
 }
 
 /** HOME PAGE RESPONSIVE DESIGN !! **/
+@media (max-width: 2000px) {
+  .menuToggle {
+    display: none;
+  }
+}
 @media (max-width: 767px) {
   /* General section tablet view */
   img {
@@ -1027,6 +1036,12 @@ a {
   .heroHeader .wrapper {
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .heroHeader .wrapper .headerContent h2 {
+    margin-top: -30px;
+  }
+  .menuToggle {
+    display: none;
   }
   /* About tablet responsive section */
   .about {
@@ -1153,6 +1168,9 @@ a {
     font-size: 8rem;
     text-align: center;
   }
+  .menuToggle {
+    display: inline-block;
+  }
   /* Header mobile responsive   */
   .navBar ul {
     display: none;
@@ -1168,8 +1186,9 @@ a {
   }
   .heroHeader .wrapper .headerContent h2 {
     text-align: center;
+    margin-top: -20px;
   }
-  .heroHeader .imgHeaderBox {
+  .heroHeader .wrapper .imgHeaderBox {
     width: 70%;
     bottom: -40px;
   }

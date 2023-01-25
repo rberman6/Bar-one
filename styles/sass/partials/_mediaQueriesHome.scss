@@ -2,6 +2,16 @@
 
 // **** TABLET VIEW BTEWEEN 481px TO 767px !!! *****//
 
+@media (max-width: 2000px) 
+
+/* Header section of desktop view */
+
+{
+    .menuToggle {
+        display: none;
+    }
+}
+
 @media (max-width: 767px) {
 
     /* General section tablet view */ 
@@ -25,9 +35,15 @@
     height: 70vh;
     .wrapper {
         justify-content: space-around;
-    
-            }
+        .headerContent h2 {
+            margin-top: -30px;
         }
+        }
+        }
+
+    .menuToggle {
+        display: none;
+    }
 
 /* About tablet responsive section */
 
@@ -40,8 +56,9 @@
             .textContainer {
                 width: 100%;
             }
+
+        }
     }
-}
 
 /* Plan Ahead section tablet responsive */ 
 
@@ -131,15 +148,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
 //**** MOBILE VIEW BEWTEEN 320px TO 480px !!! ****//
 
 @media (max-width: 480px) {
@@ -158,6 +166,11 @@
         }
     }
 
+    .menuToggle {
+    display: inline-block;
+   
+   
+    }
 
     /* Header mobile responsive   */
     .navBar ul {
@@ -171,14 +184,16 @@
             justify-content: center;
             .headerContent h2 {
                     text-align: center;
-                
-                }
+                    margin-top: -20px;
+                    }
+            .imgHeaderBox {
+            width: 70%;
+            bottom: -40px;
         }
-        .imgHeaderBox {
-        width: 70%;
-        bottom: -40px;
         }
     }
+
+
 
 
     /* About mobile responsive section */

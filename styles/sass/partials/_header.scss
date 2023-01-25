@@ -13,6 +13,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        .menuToggle {
+            align-self: flex-end;
+        }
         .headerContent {
             z-index: 20;
         }
