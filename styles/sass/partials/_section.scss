@@ -219,7 +219,7 @@ li {
     content: "\2022"; // \2022 is the unicode for a bullet //
     color: red; // change the color//
     font-weight: bolder; // to make the bullet points bold//
-    display: inline-block; // to add height/width to your element
+    display: inline-block; // to add height/width to your element as its inline by default
     margin-right: 15px; // add space between the butllet point and list//
     transform: scale(5); // increase the size of bullet point //
     }
