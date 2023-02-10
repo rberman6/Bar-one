@@ -1072,8 +1072,8 @@ a {
     padding-bottom: 40px;
   }
   .planAhead .planContainer .image1,
-.planAhead .planContainer .image2,
-.planAhead .planContainer .planTextContainer {
+  .planAhead .planContainer .image2,
+  .planAhead .planContainer .planTextContainer {
     width: 100%;
     padding-top: 0;
     padding-bottom: 25px;
@@ -1082,13 +1082,13 @@ a {
             align-items: flex-start;
   }
   .planAhead .planContainer .image1 h3,
-.planAhead .planContainer .image2 h3,
-.planAhead .planContainer .planTextContainer h3 {
+  .planAhead .planContainer .image2 h3,
+  .planAhead .planContainer .planTextContainer h3 {
     text-align: left;
   }
   .planAhead .planContainer .image1 .solid,
-.planAhead .planContainer .image2 .solid,
-.planAhead .planContainer .planTextContainer .solid {
+  .planAhead .planContainer .image2 .solid,
+  .planAhead .planContainer .planTextContainer .solid {
     width: 25%;
   }
   .planAhead .planContainer .image1 {
@@ -1221,8 +1221,8 @@ a {
     padding-bottom: 40px;
   }
   .planAhead .planContainer .image1,
-.planAhead .planContainer .image2,
-.planAhead .planContainer .planTextContainer {
+  .planAhead .planContainer .image2,
+  .planAhead .planContainer .planTextContainer {
     width: 100%;
     padding-top: 0;
     padding-bottom: 25px;
@@ -1231,13 +1231,13 @@ a {
             align-items: flex-start;
   }
   .planAhead .planContainer .image1 h3,
-.planAhead .planContainer .image2 h3,
-.planAhead .planContainer .planTextContainer h3 {
+  .planAhead .planContainer .image2 h3,
+  .planAhead .planContainer .planTextContainer h3 {
     text-align: left;
   }
   .planAhead .planContainer .image1 .solid,
-.planAhead .planContainer .image2 .solid,
-.planAhead .planContainer .planTextContainer .solid {
+  .planAhead .planContainer .image2 .solid,
+  .planAhead .planContainer .planTextContainer .solid {
     width: 35%;
   }
   .planAhead .planContainer .image1 {
