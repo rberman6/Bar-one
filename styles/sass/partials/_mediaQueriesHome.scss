@@ -189,7 +189,7 @@
         li {
             list-style: none;
             text-transform: uppercase;
-            margin: 20px 0;
+            margin: 30px 0;
                 a {
                     color: $solidWhite;
                     text-decoration: none;
@@ -207,9 +207,8 @@
 
     .mobile.active {
        opacity: 1;
+       transition: 1s;
     }
-
-
 
 
     /* Header mobile responsive   */
