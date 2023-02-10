@@ -7,7 +7,8 @@
 /* Header section of desktop view */
 
 {
-    .menuToggle {
+    .menuToggle,
+    .mobileNavBar {
         display: none;
     }
 }
@@ -166,11 +167,44 @@
         }
     }
 
-    .menuToggle {
+    /* Mobile navigation bar*/
+
+    .menuToggle,
+    .mobileNavBar {
     display: inline-block;
-   
-   
     }
+
+    .mobile {
+        font-family: $bodyFont;
+        font-size: 1.9rem;
+        line-height: 1.45rem;
+        letter-spacing: 0.09rem;
+        opacity: 0;
+        li {
+            list-style: none;
+            text-transform: uppercase;
+            margin: 20px 0;
+                a {
+                    color: $solidWhite;
+                    text-decoration: none;
+                    cursor: pointer;
+                    transition: 0.3s;
+                    &:hover {
+                            color: $quaternary;
+                        }
+                        &:focus {
+                            color: $quaternary;
+                        }
+                    }
+            }
+    }
+
+    .mobile.active {
+       opacity: 1;
+    }
+
+
+
 
     /* Header mobile responsive   */
     .navBar ul {
@@ -192,8 +226,6 @@
         }
         }
     }
-
-
 
 
     /* About mobile responsive section */

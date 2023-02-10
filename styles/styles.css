@@ -1013,7 +1013,8 @@ a {
 
 /** HOME PAGE RESPONSIVE DESIGN !! **/
 @media (max-width: 2000px) {
-  .menuToggle {
+  .menuToggle,
+  .mobileNavBar {
     display: none;
   }
 }
@@ -1168,8 +1169,38 @@ a {
     font-size: 8rem;
     text-align: center;
   }
-  .menuToggle {
+  /* Mobile navigation bar*/
+  .menuToggle,
+  .mobileNavBar {
     display: inline-block;
+  }
+  .mobile {
+    font-family: "Chathura", sans-serif;
+    font-size: 1.9rem;
+    line-height: 1.45rem;
+    letter-spacing: 0.09rem;
+    opacity: 0;
+  }
+  .mobile li {
+    list-style: none;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .mobile li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .mobile li a:hover {
+    color: #FF8327;
+  }
+  .mobile li a:focus {
+    color: #FF8327;
+  }
+  .mobile.active {
+    opacity: 1;
   }
   /* Header mobile responsive   */
   .navBar ul {
