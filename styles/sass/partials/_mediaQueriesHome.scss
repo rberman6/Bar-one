@@ -167,8 +167,13 @@
         }
     }
 
-    /* Mobile navigation bar*/
+    /* Functional Mobile navigation bar using Javascript*/
 
+    .menuToggle {
+        position: relative;
+        top: 30px;
+        z-index: 10;
+    }
     .menuToggle,
     .mobileNavBar {
     display: inline-block;
@@ -180,6 +185,7 @@
         line-height: 1.45rem;
         letter-spacing: 0.09rem;
         opacity: 0;
+        transition: 1s;
         li {
             list-style: none;
             text-transform: uppercase;

@@ -1169,7 +1169,12 @@ a {
     font-size: 8rem;
     text-align: center;
   }
-  /* Mobile navigation bar*/
+  /* Functional Mobile navigation bar using Javascript*/
+  .menuToggle {
+    position: relative;
+    top: 30px;
+    z-index: 10;
+  }
   .menuToggle,
   .mobileNavBar {
     display: inline-block;
@@ -1180,6 +1185,8 @@ a {
     line-height: 1.45rem;
     letter-spacing: 0.09rem;
     opacity: 0;
+    -webkit-transition: 1s;
+    transition: 1s;
   }
   .mobile li {
     list-style: none;
