@@ -185,7 +185,7 @@
         line-height: 1.45rem;
         letter-spacing: 0.09rem;
         opacity: 0;
-        transition: 1s;
+        // transition: 1s;
         li {
             list-style: none;
             text-transform: uppercase;
@@ -207,7 +207,7 @@
 
     .mobile.active {
        opacity: 1;
-       transition: 1s;
+       transition: 2s;
     }
 
 
@@ -221,6 +221,9 @@
     height: 60vh;
         .wrapper {
             justify-content: center;
+            .headerContent.active {
+                    display: none;
+                }
             .headerContent h2 {
                     text-align: center;
                     margin-top: -20px;

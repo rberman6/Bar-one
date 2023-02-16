@@ -1185,8 +1185,6 @@ a {
     line-height: 1.45rem;
     letter-spacing: 0.09rem;
     opacity: 0;
-    -webkit-transition: 1s;
-    transition: 1s;
   }
   .mobile li {
     list-style: none;
@@ -1208,8 +1206,8 @@ a {
   }
   .mobile.active {
     opacity: 1;
-    -webkit-transition: 1s;
-    transition: 1s;
+    -webkit-transition: 2s;
+    transition: 2s;
   }
   /* Header mobile responsive   */
   .navBar ul {
@@ -1223,6 +1221,9 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .heroHeader .wrapper .headerContent.active {
+    display: none;
   }
   .heroHeader .wrapper .headerContent h2 {
     text-align: center;
