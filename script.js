@@ -11,3 +11,4 @@ hamburgerIcon.addEventListener("click", function (e) {
     // 4. when the hamburger icon is clicked the active class will appear and h1, and h2 will be show as "display none" in the DOM under an active class
     document.querySelector(".headerContent").classList.toggle("active");
 });
+// whem hamburger icon is clicked on again the ul mobile nav bar will close and the h1, h2 will reappear.
